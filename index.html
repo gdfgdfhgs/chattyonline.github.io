@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Chatroom</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="chat">
+
+        <header class="chat-header">
+            <h1>My Chatroom</h1>
+            <p id="status">Not connected</p>
+        </header>
+
+        <section id="messages" class="messages">
+            <!-- Messages will appear here -->
+        </section>
+
+        <form id="chat-form" class="chat-input">
+            <input
+                id="message"S
+                type="text"
+                placeholder="Type a message..."
+                maxlength="500"
+                autocomplete="off"
+            >
+
+            <button type="submit">Send</button>
+        </form>
+
+    </main>
+
+    <script type="module" src="chat.js"></script>
+
+
+</body>
+</html>
